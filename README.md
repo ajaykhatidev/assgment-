@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+E-Commerce Website
 
-## Getting Started
+Overview
 
-First, run the development server:
+This project is a fully functional e-commerce website built with Next.js and PostgreSQL. It supports dynamic routing, server-side rendering, and an integrated Admin Panel for managing products, categories, and orders.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+User Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Product Listing - View products with filtering and sorting options.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Product Details - Detailed information about each product.
 
-## Learn More
+Shopping Cart - Add, edit, or remove items from the cart.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Checkout Process - Place orders with a streamlined process.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Admin Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dashboard - Overview of sales, products, and user data.
+
+Product Management - Add, update, and delete products.
+
+Category Management - Organize products into categories.
+
+Order Management - View and process customer orders.
+
+Tech Stack
+
+Frontend: Next.js, Tailwind CSS
+
+Backend: Next.js
+
+Storage: PostgreSQL
+
+Installation
+
+Prerequisites
+
+Node.js (>= 16.x)
+
+PostgreSQL (installed and running)
+
+Steps
+
+Clone the repository:
+
+  git clone https://github.com/your-repo/ecommerce-website.git
+
+Navigate to the project directory:
+
+  cd ecommerce-website
+
+Install dependencies:
+
+  npm install
+
+Run database migrations (if using TypeORM):
+
+  npm run migration:run
+
+Start the development server:
+
+  npm run dev
+
+Screenshots
+
+Include screenshots of key pages like the home page, product details, shopping cart, and admin panel.
+
+Contributions
+
+Contributions are welcome! Please fork the repository and create a pull request.
+
+Contact
+
+For any inquiries or support, feel free to reach out:
+
+Email: ajaykhati532@gmail.com
+
